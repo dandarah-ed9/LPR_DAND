@@ -7,11 +7,13 @@ using namespace std;
 
 int main() 
 {
-    double raio;
-    double pi = 3.1415;
-    double Area = pi * raio * raio;  
+    double raio , Area;
+    double pi = 3.14159;
     
-  cout << "Digite o valor do raio:    " << endl;
+    cout << "Digite o valor do raio:    " << endl;
     cin >> raio;
-  cout << " O valor da Area e:    " << Area << endl;
+
+    Area = pi * raio * raio;  
+
+    cout << " O valor da Area do circulo e: " << Area << endl;
 }
