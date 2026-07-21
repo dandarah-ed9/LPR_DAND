@@ -6,10 +6,13 @@
 
 int main() 
 {
-    int raio;
-    double Area = 3.1415* raio *raio;  
+    double raio;
+    double pi = 3.1415;
+    double Area = pi * raio * raio;  
     
-   std:: cout << "Digite o valor do raio: " << raio << " O valor da Area é: " << Area << std::endl;
+   std:: cout << "Digite o valor do raio: " << std::endl;
    std:: cin >> raio;
+   std:: cout << " O valor da Area total e: " << Area << std::endl;
+
     return 0;
 }
