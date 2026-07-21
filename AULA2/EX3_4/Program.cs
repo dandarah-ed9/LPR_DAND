@@ -27,12 +27,6 @@ namespace EX3_4
 
             Console.WriteLine(" Numero do funcionario: "+numeroFuncionario);
             Console.WriteLine(" Salario do funcionario: " +calc_salario);
-
-
-           
-        
-
-
         }
     }
 }
