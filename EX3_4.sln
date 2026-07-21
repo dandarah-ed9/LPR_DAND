@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AULA2", "AULA2", "{D6782A36-904B-B642-DAE8-1EC182D14F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EX3_4", "EX3_4\EX3_4.csproj", "{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|x64.Build.0 = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Debug|x86.Build.0 = Debug|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|x64.ActiveCfg = Release|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|x64.Build.0 = Release|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|x86.ActiveCfg = Release|Any CPU
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5135FA7D-A12B-4F1B-828C-D8D1DBFEFE20} = {D6782A36-904B-B642-DAE8-1EC182D14F10}
+	EndGlobalSection
+EndGlobal
