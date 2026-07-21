@@ -4,17 +4,41 @@
 
 using System;
 
-namespace EX3_4
+namespace EX4_4
 {
     class Program
     {
         static void Main(string[] args)
         {
+            int codigo1 , quantidade1;
+            double valor1;
+
+            int codigo2 , quantidade2;
+            double valor2;
             
+          //peças 1 
+          Console.Write("Digite o código da peca 1: ");
+          codigo1 = int.Parse(Console.ReadLine());
 
+          Console.Write("Digite a quantidade de pecas 1: ");
+          quantidade1 = int.Parse(Console.ReadLine());
 
+          Console.Write("Digite o valor unitario da peca 1: ");
+          valor1 = double.Parse(Console.ReadLine());
 
+            //peças 2
+          Console.Write("Digite o código da peca 2: ");
+          codigo2 = int.Parse(Console.ReadLine());
+
+          Console.Write("Digite a quantidade de pecas 2: ");
+          quantidade2 = int.Parse(Console.ReadLine());
+
+          Console.Write("Digite o valor unitario da peca 2: ");
+          valor2 = double.Parse(Console.ReadLine());
+
+          double ValorTotal = (quantidade1 * valor1 ) + (quantidade2 * valor2);
+
+          Console.WriteLine ("O valor total a pagar sera de : " + ValorTotal);
         }
-
     }
 }
