@@ -1,4 +1,4 @@
-// Faça um programa para ler o valor do raio de um círculo, e depois mostrar o valor da área deste círculo
+//ler o valor do raio de um círculo, e mostrar o valor da área deste círculo
 //Fórmula da área: area = π . raio2
 //Considere o valor de π = 3.14159
 
