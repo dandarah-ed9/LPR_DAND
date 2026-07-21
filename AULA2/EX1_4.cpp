@@ -3,6 +3,7 @@
 //Considere o valor de π = 3.14159
 
 #include <iostream>
+using namespace std;
 
 int main() 
 {
@@ -10,9 +11,7 @@ int main()
     double pi = 3.1415;
     double Area = pi * raio * raio;  
     
-   std:: cout << "Digite o valor do raio: " << std::endl;
-   std:: cin >> raio;
-   std:: cout << " O valor da Area total e: " << Area << std::endl;
-
-    return 0;
+  cout << "Digite o valor do raio:    " << endl;
+    cin >> raio;
+  cout << " O valor da Area e:    " << Area << endl;
 }
