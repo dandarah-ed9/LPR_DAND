@@ -1,5 +1,7 @@
-﻿using System;
+﻿//Fazer um programa para ler um número inteiro, e depois dizer
+//se este número é par ou não.
 
+using System;
 namespace EX1_3
 {
      class Program
