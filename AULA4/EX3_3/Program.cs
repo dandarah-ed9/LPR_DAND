@@ -45,7 +45,6 @@ namespace EX1_3
                 Console.WriteLine("Classe inexistente, escolha novamente! ");
                 break;
             }
-
         }
     }    
 }    
