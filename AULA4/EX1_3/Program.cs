@@ -6,14 +6,14 @@ namespace EX1_3
     {
         static void Main(string[] args)
         {
-            int numerosInt ;
+            int numerosI ;
 
             Console.Write("Digite um numero intero: ");
-            numerosInt = int.Parse(Console.ReadLine());
+            numerosI = int.Parse(Console.ReadLine());
 
-            if (numerosInt %2 == 0)
+            if (numerosI %2 == 0)
             {
-              Console.WriteLine("O numero digitado e par ! ");
+              Console.WriteLine("O numero digitado e par ");
             }
             else
             {
