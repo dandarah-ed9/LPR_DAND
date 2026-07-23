@@ -2,6 +2,7 @@
 //se este número é par ou não.
 
 using System;
+
 namespace EX1_3
 {
      class Program
@@ -24,9 +25,6 @@ namespace EX1_3
             {
               Console.WriteLine(" O numero digitado e impar");
             }
-            
         }
     }            
 }
-
-
