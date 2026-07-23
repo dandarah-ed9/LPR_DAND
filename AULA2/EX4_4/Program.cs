@@ -38,7 +38,7 @@ namespace EX4_4
 
           double ValorTotal = (quantidade1 * valor1 ) + (quantidade2 * valor2);
 
-          Console.WriteLine ("O valor total a pagar sera de : " + ValorTotal);
+          Console.WriteLine ("O valor total a pagar sera de : " +
         }
     }
 }
