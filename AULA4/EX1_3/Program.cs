@@ -11,7 +11,10 @@ namespace EX1_3
             int numerosI ;
 
             Console.Write("Digite um numero intero: ");
-            numerosI = int.Parse(Console.ReadLine());
+            numerosI = int.Parse(Console.ReadLine()!);
+            //o "!" depois do Console.ReadLine , quer dizer que 
+            // não vai dar null e é pro compilador confiar nessa 
+            // afirmação.
 
             if (numerosI %2 == 0)
             {
