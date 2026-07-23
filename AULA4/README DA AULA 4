@@ -1,7 +1,4 @@
-README DA AULA 4
-
 **README 4**
-
 
 **EXERCÍCIO 1  C#**
 
@@ -9,21 +6,17 @@ README DA AULA 4
 Fazer um programa para ler um número 
 inteiro, e depois dizer se este número é par 
 ou não.
-
 ```
 ENTRADA         -     SAÍDA
 10                     -     PAR
-
 ```
 ```
 ENTRADA         -     SAÍDA
 -15                   -     ÍMPAR
-
 ```
 ```
 ENTRADA         -     SAÍDA
 0                       -    PAR
-
 ```
 ```
 
@@ -43,12 +36,10 @@ ENTRADA         -     SAÍDA
 ```
 ENTRADA         -     SAÍDA
 6  25                 -     Não são Multiplos
-
 ```
 ```
 ENTRADA         -     SAÍDA
 36   6                -    São Multiplos
-
 ```
 ```
 
@@ -75,6 +66,5 @@ Mago            -    Bola de Fogo , Escudo de Gelo
 ```
 ```
 Arqueira        -    Flecha Precisa  , Disparo Triplo  
-
 ```
 ```
