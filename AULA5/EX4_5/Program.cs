@@ -12,13 +12,12 @@ namespace  EX4_5
     {
         static void Main(String [] args)
         {
-            int numero;
-            int digito;
-            int quadrado = numero * numero;
-            int somatorio =0 ;
-
             Console.WriteLine("Digite um numero: ");
-            numero = int.Parse(Console.ReadLine()!);
+            int numero = int.Parse(Console.ReadLine()!);
+
+            int quadrado = numero * numero;
+            int digito;
+            int somatorio =0 ;
 
             while(quadrado > 0)
             {
@@ -26,7 +25,7 @@ namespace  EX4_5
              somatorio += digito;
              quadrado = quadrado /10; 
             }
-            Console.WriteLine("A soma dos termos sao: " +somatorio);
+            Console.WriteLine("A soma dos quadrado sao: " +somatorio);
         }
     }
 }   
