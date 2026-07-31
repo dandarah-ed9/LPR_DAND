@@ -1,0 +1,5 @@
+C:\Users\Evely\OneDrive\Desktop\dedery\LPR_DAND\AULA5\EX4_5\obj\Debug\net10.0\EX4_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evely\OneDrive\Desktop\dedery\LPR_DAND\AULA5\EX4_5\obj\Debug\net10.0\EX4_5.AssemblyInfoInputs.cache
+C:\Users\Evely\OneDrive\Desktop\dedery\LPR_DAND\AULA5\EX4_5\obj\Debug\net10.0\EX4_5.AssemblyInfo.cs
+C:\Users\Evely\OneDrive\Desktop\dedery\LPR_DAND\AULA5\EX4_5\obj\Debug\net10.0\EX4_5.csproj.CoreCompileInputs.cache
+C:\Users\Evely\OneDrive\Desktop\dedery\LPR_DAND\AULA5\EX4_5\obj\Debug\net10.0\EX4_5.sourcelink.json
