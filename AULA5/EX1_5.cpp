@@ -29,7 +29,6 @@ int main()
    cout << "Digite a quantidade de numeros que sera fornecido: " << endl;
    cin>> quantidade;
 
-   
    // sem aspas, se tiver ele le como se fosse 
    //uma string não uma condição
    while( i < quantidade )
@@ -42,10 +41,8 @@ int main()
         coletor += numero; // += serve para somar
         numerosPares++ ;   //é um contador somente dos numeros pares
       }
-
         i++ ;   // contador
     } 
-    
     media = coletor/numerosPares;
     cout<< "A media dos numeros digitados e: "<< media << endl;
 

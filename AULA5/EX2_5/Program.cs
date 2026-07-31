@@ -43,9 +43,10 @@ namespace  EX2_5
                 {
                   Console.WriteLine("Voce chutou alto ") ;  
                 }
-            } while(i != valorInteiro);
+
             // roda mais de uma vez com i !=
-                Console.WriteLine(" Numero de tentativas: " + contador);    
+            } while(i != valorInteiro);
+              Console.WriteLine(" Numero de tentativas: " + contador);    
         }
     }
 } 
