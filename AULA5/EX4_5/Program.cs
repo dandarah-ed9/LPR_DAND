@@ -21,6 +21,13 @@ namespace  EX4_5
 
             while(quadrado > 0)
             {
+             // '%' calcula o resto(sobra) de uma divisão, exemplo ' %10 '. 
+             //Regra: numero % 10 sempre devolve o último dígito de qualquer número.
+
+             //Regra: numero / 10 sempre remove o último dígito, "empurrando" o número pra frente.
+             // '/'(quando os dois números são int) calcula o resultado da divisão,
+             // eliminando qualquer casa decimal, exemplo ' /10 '.
+
              digito = quadrado % 10;
              somatorio += digito;
              quadrado = quadrado /10; 

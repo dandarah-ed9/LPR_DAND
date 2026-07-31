@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX4_5\\EX4_5.csproj": {}
+    "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX5_5\\EX5_5.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX4_5\\EX4_5.csproj": {
+    "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX5_5\\EX5_5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX4_5\\EX4_5.csproj",
-        "projectName": "EX4_5",
-        "projectPath": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX4_5\\EX4_5.csproj",
+        "projectUniqueName": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX5_5\\EX5_5.csproj",
+        "projectName": "EX5_5",
+        "projectPath": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX5_5\\EX5_5.csproj",
         "packagesPath": "C:\\Users\\Evely\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX4_5\\obj\\",
+        "outputPath": "c:\\Users\\Evely\\OneDrive\\Desktop\\dedery\\LPR_DAND\\AULA5\\EX5_5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
