@@ -15,25 +15,22 @@ namespace  EX4_5
     {
         static void Main(String [] args)
         {
-            double quantHoras1 ,quantHoras2 ,quantHoras3 ,quantHoras4 ,quantHoras5;
-            double total;
+            double quantHdias;
+            int totalSemana;
+            int i = 0;
 
-            Console.WriteLine("Digite o numero da quantidade de horas treinadas na segunda feira: ");
-            quantHoras1 = int.TryParse(Console.ReadLine()!);
+            string [] dias = { "segunda","terca", "quarta", "quinta" , "sexta" };
 
-            Console.WriteLine("Digite o numero da quantidade de horas treinadas na terca feira: ");
-            quantHoras2 = int.TryParse(Console.ReadLine()!);
+            for (i = 0; i< dias.Length ; i++)
+            {
+            //Agora o C# entende que {nome} deve ser substituído pelo valor da 
+            //variável, c# n entende sozinho por isso tem q colocar
+            Console.WriteLine($"Digite o numero da quantidade de horas treinadas na {dias [i]}-feira: ");
+            quantHdias = double.Parse(Console.ReadLine()! .Replace("," , "."));
+            
+            totalSemana += quantHdias;
+            }
 
-            Console.WriteLine("Digite o numero da quantidade de horas treinadas na quarta feira: ");
-            quantHoras3 = int.TryParse(Console.ReadLine()!);
-
-            Console.WriteLine("Digite o numero da quantidade de horas treinadas na quinta feira: ");
-            quantHoras4 = int.TryParse(Console.ReadLine()!);
-
-            Console.WriteLine("Digite o numero da quantidade de horas treinadas na sexta feira: ");
-            quantHoras5 = int.TryParse(Console.ReadLine()!);
-
-            total = quantHoras1 + quantHoras2 + quantHoras3 + quantHoras4 + quantHoras5;
 
             
 
