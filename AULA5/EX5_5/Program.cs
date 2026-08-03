@@ -15,6 +15,29 @@ namespace  EX4_5
     {
         static void Main(String [] args)
         {
+            double quantHoras1 ,quantHoras2 ,quantHoras3 ,quantHoras4 ,quantHoras5;
+            double total;
+
+            Console.WriteLine("Digite o numero da quantidade de horas treinadas na segunda feira: ");
+            quantHoras1 = int.TryParse(Console.ReadLine()!);
+
+            Console.WriteLine("Digite o numero da quantidade de horas treinadas na terca feira: ");
+            quantHoras2 = int.TryParse(Console.ReadLine()!);
+
+            Console.WriteLine("Digite o numero da quantidade de horas treinadas na quarta feira: ");
+            quantHoras3 = int.TryParse(Console.ReadLine()!);
+
+            Console.WriteLine("Digite o numero da quantidade de horas treinadas na quinta feira: ");
+            quantHoras4 = int.TryParse(Console.ReadLine()!);
+
+            Console.WriteLine("Digite o numero da quantidade de horas treinadas na sexta feira: ");
+            quantHoras5 = int.TryParse(Console.ReadLine()!);
+
+            total = quantHoras1 + quantHoras2 + quantHoras3 + quantHoras4 + quantHoras5;
+
+            
+
+
 
 
         }            
