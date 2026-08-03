@@ -15,28 +15,42 @@ namespace  EX4_5
     {
         static void Main(String [] args)
         {
-            double quantHdias;
-            int totalSemana;
+            double semanasMes = 4.5;
+            double horasTotais = 1000;
+            
+            double horasPorDia;
+            double diasNecessarios;
+            double semanasNecessarias;
+            double mesesNecessarios;
+
+            double quantHoras;
+            double totalSemana = 0;
             int i = 0;
+
 
             string [] dias = { "segunda","terca", "quarta", "quinta" , "sexta" };
 
             for (i = 0; i< dias.Length ; i++)
             {
-            //Agora o C# entende que {nome} deve ser substituído pelo valor da 
+            //$ o C# entende que {nome} deve ser substituído pelo valor da 
             //variável, c# n entende sozinho por isso tem q colocar
             Console.WriteLine($"Digite o numero da quantidade de horas treinadas na {dias [i]}-feira: ");
-            quantHdias = double.Parse(Console.ReadLine()! .Replace("," , "."));
+            quantHoras = double.Parse(Console.ReadLine()! .Replace("," , "."));
             
-            totalSemana += quantHdias;
+            totalSemana += quantHoras;
             }
 
+            horasPorDia = totalSemana/5;
+            diasNecessarios = horasTotais / horasPorDia ;
+            semanasNecessarias = horasTotais / totalSemana;
+            mesesNecessarios = semanasNecessarias/ semanasMes;
 
-            
-
-
-
-
+            //$ o C# entende que {nome} deve ser substituído pelo valor da 
+            //variável, c# n entende sozinho por isso tem q colocar
+            Console.WriteLine($"O seu tempo total de treinamento em horas é de: {totalSemana}");
+            Console.WriteLine($"Os dias necessarios para completar as 1000 horas é: {diasNecessarios}");
+            Console.WriteLine($"As semanas necessarios para completar as 1000 horas é: {semanasNecessarias}");
+            Console.WriteLine($"Os meses necessarios para completar as 1000 horas é: {mesesNecessarios}");
         }            
     }
 }
