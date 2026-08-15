@@ -38,6 +38,7 @@ void exercicio1 ()
         coletor += numero; // += serve para somar
         numerosPares++ ;   //é um contador somente dos numeros pares
       }
+      
         i++ ;   // contador
     } 
     media = coletor/numerosPares;
