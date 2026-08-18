@@ -23,22 +23,141 @@ namespace  EX3_3
             for(int i = 1; i<=5; i++)
             {
             Console.WriteLine("digite o nome do superheroi A: ");
-            superHerois1= Console.ReadLine();
+
+                if(i==1 )
+                {   
+                    superHerois1 = Console.ReadLine()!;
+                }
+                else if(i == 2)
+                {   
+                    superHerois2 = Console.ReadLine()!;
+                }
+                else if ( i==3 )
+                {   
+                    superHerois3 = Console.ReadLine()!;
+                }
+                else if ( i==4 )
+                {   
+                    superHerois4 = Console.ReadLine()!;
+                }
+                else if ( i==5 )
+                {   
+                    superHerois5 = Console.ReadLine()!;
+                }
+                else
+                {
+                  Console.WriteLine("opcao invalida!");
+                }  
+            
 
             Console.WriteLine("digite o poder do superheroi A: ");
-            poder1= Console.ReadLine();
+
+                if(i==1 )
+                {   
+                    poder1 = Console.ReadLine()!;
+                }
+                else if(i == 2)
+                {   
+                    poder2 = Console.ReadLine()!;
+                }
+                else if ( i==3 )
+                {   
+                    poder3 = Console.ReadLine()!;
+                }
+                else if ( i==4 )
+                {   
+                    poder4 = Console.ReadLine()!;
+                }
+                else if ( i==5 )
+                {   
+                    poder5 = Console.ReadLine()!;
+                }
+                else
+                {
+                  Console.WriteLine("opcao invalida!");
+                }  
 
             Console.WriteLine("digite a pontuacao  do superheroi A: ");
-            pontuacao1= int.Parse(Console.ReadLine());
+                if(i==1 )
+                {   
+                    pontuacao1 = int.Parse(Console.ReadLine()!);
+                }
+                else if(i == 2)
+                {   
+                    pontuacao2 = int.Parse(Console.ReadLine()!);
+                }
+                else if ( i==3 )
+                {   
+                    pontuacao3 = int.Parse(Console.ReadLine()!);
+                }
+                else if ( i==4 )
+                {   
+                    pontuacao4 = int.Parse(Console.ReadLine()!);
+                }
+                else if ( i==5 )
+                {   
+                    pontuacao5 = int.Parse(Console.ReadLine()!);
+                }
+                else
+                {
+                  Console.WriteLine("opcao invalida!");
+                }  
             }
         }
         void sel_equipe()
         {
-            
+            int A = 0;
+            int B = 0;
+            int C = 0;
+
+            int selecionado;
+
+            for(int i = 1 ; i<=3; i++)
+            {
+            Console.WriteLine("digite superheroi A que deseja: ");
+            selecionado = int.Parse(Console.ReadLine()!);
+
+                if(i == 1)
+                {   
+                    A = selecionado;
+                }
+                else if(i == 2)
+                {   
+                    B = selecionado;
+                }
+                else if ( i==3 )
+                {   
+                    C = selecionado;
+                }
+                else
+                {
+                  Console.WriteLine("opcao invalida!");
+                }
+            }   
         }
         void pont_total()
         {
+          for(int i = 1 ; i<=3; i++)
+            {
             
+
+                if(i == 1)
+                {   
+                    A = pontuacao1;
+                }
+                else if(i == 2)
+                {   
+                    B = pontuacao2;
+                }
+                else if ( i==3 )
+                {   
+                    C = pontuacao3;
+                }
+                else
+                {
+                  Console.WriteLine("opcao invalida!");
+                }
+            }     
         }
         void exib_equipe()
         {
