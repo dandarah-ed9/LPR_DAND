@@ -137,21 +137,24 @@ namespace  EX3_3
         }
         void pont_total()
         {
+            int A = 0;
+            int B = 0;
+            int C = 0;
+
           for(int i = 1 ; i<=3; i++)
             {
-            
 
                 if(i == 1)
                 {   
-                    A = pontuacao1;
+                    A = int.Parse(Console.ReadLine()!);
                 }
                 else if(i == 2)
                 {   
-                    B = pontuacao2;
+                    B= int.Parse(Console.ReadLine()!);
                 }
                 else if ( i==3 )
                 {   
-                    C = pontuacao3;
+                    C =int.Parse(Console.ReadLine()!);
                 }
                 else
                 {
