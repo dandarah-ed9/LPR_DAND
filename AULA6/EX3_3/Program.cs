@@ -9,90 +9,104 @@
 //COM Requisitos Adicionais:
 
 using System;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
 namespace  EX3_3
 {
     class Program
     {
-        void superHerois()
-        {
-           Public string [] superherois = new string[5]; 
-          Public string [] poder = new string [5];
-          Public int []  pontuacao = new int [5];
+        string [] superherois = new string[5]; 
+        string [] poder = new string [5];
+        int []  pontuacao = new int [5];
+        bool [] selecionado  = new bool [5];
 
-            for(int i = 0; i<5; i++)
-            {
-            Console.WriteLine("digite o nome do superheroi A: {i}");
+    void superHerois()
+    {
+        for(int i = 0; i<5; i++)
+        {
+            Console.WriteLine($"digite o nome do superheroi : {i+1}");
             superherois [i] = Console.ReadLine()!;
-            Console.WriteLine("digite o poder do superheroi A: {i+1}");
+            
+            Console.WriteLine($"digite o poder do superheroi : {i+1}");
             poder [i] = Console.ReadLine()!;
-            Console.WriteLine("digite a  pontuacao [5]  do superheroi A: {i+2}");               
+            
+            Console.WriteLine($"digite a  pontuacao do superheroi : {i+1}");               
             pontuacao [i] = int.Parse( Console.ReadLine()!);
+        }
+    }
+    void sel_equipe()
+    {
+        for(int i = 0 ; i<2; i++)
+        {
+           Console.WriteLine($"superherois: {superherois [i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
+        }
+    }
+    void pont_total()
+    {
+        int total = 0;
+
+        for (int i = 0; i < 5; i++)
+        {
+          total += pontuacao[i];
+        }
+          Console.WriteLine($"A pontuacao total da equipe e: {total}");
+    }
+    void exib_equipe()
+    {
+        Console.WriteLine("\n--- Equipe Selecionada ---");
+
+        for (int i = 0; i < 5; i++)
+        {
+            if (selecionado[i] == true)
+            {
+                Console.WriteLine($"Nome: {superherois[i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
             }
         }
-        void sel_equipe()
+    }
+    void menuPrincipal()
+    {
+        int opcao;
+        do
         {
-            int A = 0;
-            int B = 0;
-            int C = 0;
+           Console.WriteLine("\n===== MENU =====") ;
+           Console.WriteLine("1 - Cadastrar Herois ") ;
+           Console.WriteLine("2 - Selecionar Equipes") ;
+           Console.WriteLine("3 - Ver Pontuacao Total") ;
+           Console.WriteLine("4 - Exibir equipe") ;
+           Console.WriteLine("0 - Sair") ;
+           Console.Write("Escolha Uma Opcao :") ;
 
-            int selecionado;
+           opcao = int.Parse(Console.ReadLine()!);
 
-            for(int i = 1 ; i<=3; i++)
+            switch (opcao)
             {
+              case 1:
+              superHerois();
+              break;
 
-   
-        Console.WriteLine($"superherois: {superHerois[i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
-    
-}
-               
-        }
-        void pont_total()
-        {
-            int A = 0;
-            int B = 0;
-            int C = 0;
+              case 2:
+              sel_equipe();
+              break;
 
-          for(int i = 0 ; i<=3; i++)
-            {
-                if(i == 0)
-                {   
-                    A = int.Parse(Console.ReadLine()!);
-                }
-                else if(i == 1)
-                {   
-                    B= int.Parse(Console.ReadLine()!);
-                }
-                else if ( i==2 )
-                {   
-                    C =int.Parse(Console.ReadLine()!);
-                }
-                else
-                {
-                  Console.WriteLine("opcao invalida!");
-                }                   
-            } 
-        }
-        void exib_equipe()
-        {
-            
-        }
-        void menuPrincipal()
-        {
-            
-        }
+              case 3:
+              pont_total();
+              break;
 
+              case 4:
+              exib_equipe();
+              break;
+
+              default:
+              Console.WriteLine("Opcao Invalida");
+              break;             
+            }
+        } while(opcao != 0);
+    }
         static void Main(String [] args)
         {
-
-            
-
-
-
-
-          
-            
+            Program programa = new Program();
+            programa.menuPrincipal();            
         }
     }
 }
