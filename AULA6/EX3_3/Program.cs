@@ -37,7 +37,7 @@ namespace  EX3_3
     }
     void sel_equipe()
     {
-        for(int i = 0 ; i<2; i++)
+        for(int i = 0 ; i<3; i++)
         {
            Console.WriteLine($"superherois: {superherois [i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
         }
