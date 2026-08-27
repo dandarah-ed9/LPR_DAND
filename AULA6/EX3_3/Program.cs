@@ -9,6 +9,7 @@
 //COM Requisitos Adicionais:
 
 using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace  EX3_3
 {
@@ -16,18 +17,18 @@ namespace  EX3_3
     {
         void superHerois()
         {
-          string  superHerois1 , superHerois2 ,superHerois3 ,superHerois4 ,superHerois5;
-          string  poder1 , poder2 ,poder3 ,poder4 ,poder5;
-          int  pontuacao1 , pontuacao2 ,pontuacao3 ,pontuacao4 , pontuacao5;
+           Public string [] superherois = new string[5]; 
+          Public string [] poder = new string [5];
+          Public int []  pontuacao = new int [5];
 
-            for(int i = 0; i<=5; i++)
+            for(int i = 0; i<5; i++)
             {
             Console.WriteLine("digite o nome do superheroi A: {i}");
-            
+            superherois [i] = Console.ReadLine()!;
             Console.WriteLine("digite o poder do superheroi A: {i+1}");
-
-            Console.WriteLine("digite a pontuacao  do superheroi A: {i+2}");
-                
+            poder [i] = Console.ReadLine()!;
+            Console.WriteLine("digite a  pontuacao [5]  do superheroi A: {i+2}");               
+            pontuacao [i] = int.Parse( Console.ReadLine()!);
             }
         }
         void sel_equipe()
@@ -40,26 +41,12 @@ namespace  EX3_3
 
             for(int i = 1 ; i<=3; i++)
             {
-            Console.WriteLine("digite superheroi A que deseja: ");
-            selecionado = int.Parse(Console.ReadLine()!);
 
-                if(i == 1)
-                {   
-                    A = selecionado;
-                }
-                else if(i == 2)
-                {   
-                    B = selecionado;
-                }
-                else if ( i==3 )
-                {   
-                    C = selecionado;
-                }
-                else
-                {
-                  Console.WriteLine("opcao invalida!");
-                }
-            }   
+   
+        Console.WriteLine($"superherois: {superHerois[i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
+    
+}
+               
         }
         void pont_total()
         {
@@ -69,7 +56,6 @@ namespace  EX3_3
 
           for(int i = 0 ; i<=3; i++)
             {
-
                 if(i == 0)
                 {   
                     A = int.Parse(Console.ReadLine()!);
@@ -85,10 +71,8 @@ namespace  EX3_3
                 else
                 {
                   Console.WriteLine("opcao invalida!");
-                }
-                    
+                }                   
             } 
-            
         }
         void exib_equipe()
         {
