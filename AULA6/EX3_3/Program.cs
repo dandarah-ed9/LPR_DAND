@@ -2,7 +2,7 @@
 //de seleção de heróis da Marvel para uma equipe. 
 //O programa deve ter as seguintes funcionalidades:
 //a) Cadastro de Heróis:   
-//b) Seleção de Equipe:    
+//b) Seleção de Equipe (maximo 3 herois):    
 //c) Pontuação Total da Equipe:     
 //d) Exibição da Equipe:          
 //e) Menu:           
@@ -40,6 +40,13 @@ namespace  EX3_3
         for(int i = 0 ; i<5; i++)
         {
            Console.WriteLine($"superherois: {superherois [i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
+        }
+        for(int i =0; i<3; i++)
+        {
+           int selecionar = 3;
+
+           Console.WriteLine($"Selecione no maximo 3 herois : {superherois [i]} "); 
+           selecionar = int.Parse(Console.ReadLine()!);
         }
     }
     void pont_total()
