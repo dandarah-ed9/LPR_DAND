@@ -45,7 +45,7 @@ namespace  EX3_3
         {
            int selecionar = 3;
 
-           Console.WriteLine($"Selecione no maximo 3 herois : {superherois [i]} "); 
+           Console.WriteLine($"Selecione no maximo 3 herois :  "); 
            selecionar = int.Parse(Console.ReadLine()!);
         }
     }
