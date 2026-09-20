@@ -1,0 +1,174 @@
+**EXERCÍCIO 1**
+
+VETOR: Construa um algoritmo 
+que leia 5 números inteiros e os armazene 
+em um vetor. 
+Ao final, o programa deve exibir todos os 
+números digitados, o maior valor 
+armazenado e a posição em que esse valor 
+se encontra.
+
+ENTRADA                   -     SAÍDA
+8   3   12   7   5           -     Vetor: 8  3  12   7   5  
+ ---------------------    -     Maior valor : 12
+ ---------------------    -     Posição : 2
+
+
+**EXERCÍCIO 2**
+
+VETOR: Construa um algoritmo 
+que leia 10 números inteiros e armazene-os 
+em um vetor (use o for para fazer a leitura). 
+Depois, crie automaticamente dois 
+vetores, um contendo apenas os números 
+pares e outro os números ímpares 
+digitados.
+
+```
+ENTRADA                           -     SAÍDA
+5  8   7   9  6   4   10   8      -     PAR : 8  6  4  10  8  10
+            10   9                      -     ÍMPAR :  5  7  9  9  
+
+
+**EXERCÍCIO 3**
+
+VETOR: Construa um algoritmo 
+que leia 10 números inteiros. Depois 
+solicite para o usuário um número que ele 
+gostaria de pesquisar no vetor. Caso o 
+número exista no vetor, mostre em qual 
+posição (ou quais) ele aparece e quantas 
+ocorrências foram detectadas. 
+
+
+**EXERCÍCIO 4**
+
+VETOR: Uma escola deseja analisar 
+as notas de uma turma. Crie um programa que:
+● Leia o nome de 10 alunos.
+● Leia a nota de cada aluno (0 a 100).
+● Armazene os nomes em um vetor de strings 
+e as notas em um vetor de inteiros.
+● Crie uma função chamada ClassificarAluno() 
+que receba a nota e retorne:
+
+```
+ENTRADA    -     SAÍDA
+<60             -   Reprovado
+60 a 79        -   Recuperação
+> =  80          -   Aprovado
+
+             
+**EXERCÍCIO 5**
+
+ VETOR: Uma escola deseja 
+analisar as notas de uma turma. Crie um 
+programa que:
+       
+ ● Exiba um relatório contendo:
+
+○ Nome; Nota; Situação;
+
+○ Quantos aprovados; 
+
+○ Quantos em recuperação; 
+
+○ Quantos reprovados; 
+
+○ Média geral da turma.      
+
+             
+EXEMPLO: 
+```
+Maria - 85 - Aprovado
+João - 72 - Recuperação
+Pedro - 40 - Reprovado
+Aprovados: 4
+Recuperação: 3
+Reprovados: 3
+Média da turma: 71,8                                        
+
+             
+**EXERCÍCIO 6**
+             
+MATRIZ: Construa um 
+algoritmo que leia uma matriz 3x3 de 
+números inteiros.
+
+Ao final, o programa deverá mostrar a 
+matriz digitada e calcular a soma de todos 
+os elementos da matriz.
+```
+ENTRADA                  -     SAÍDA
+1   2   3                      -     1  2  3
+4   5   6                      -     4  5  6
+7   8   9                      -     7  8  9
+---------------------   -   Soma = 45                 
+             
+
+**EXERCÍCIO 7**
+
+ Fazer um programa que leia o 
+número de um funcionário, seu número de 
+horas trabalhadas, o valor que recebe por 
+hora e calcule o salário desse funcionário. 
+A seguir, mostre o número e o salário do 
+funcionário, com duas casas decimais.
+            ```
+---------------------------------------------------------------------------------------
+ |                 | Vitória  |    BH      |     RJ        |  SP      | 
+---------------------------------------------------------------------------------------
+| Vitória     |                |    524    |      521    |    882   |
+---------------------------------------------------------------------------------------
+| BH            |   524      |               |       434   |     586  |
+---------------------------------------------------------------------------------------
+|  RJ           |   521        |     434    |                |   429  |
+---------------------------------------------------------------------------------------
+| SP             |   882      |       586   |      429    |           |
+---------------------------------------------------------------------------------------
+
+
+ **EXERCÍCIO 8**
+
+MATRIZ: Crie um programa que 
+leia essa matriz e informe ao usuário a 
+distância entre duas cidades por ele 
+fornecidas. 
+
+O programa deve ficar repetindo até que o 
+usuário informe a mesma cidade como 
+origem e destino.
+
+
+**EXERCÍCIO 9**
+
+MATRIZ Crie um algoritmo que 
+leia duas matrizes A e B, de tamanho 3x3, e 
+calcule A*B. Dica abaixo:
+
+```
+<img width="813" height="230" alt="Image" src="https://github.com/user-attachments/assets/6e862971-cd91-40ed-abb1-0d307484e7db" />
+
+
+**EXERCÍCIO 10**
+
+ MATRIZ Um cinema possui uma sala 
+com 6 linhas e 8 colunas. Cada posição da 
+matriz representa uma cadeira:
+
+0 = livre
+
+1 = ocupada
+     Inicialmente todas as cadeiras devem estar livres. 
+
+Crie um sistema com menu repetitivo:
+
+1 - Reservar assento
+2 - Cancelar reserva
+3 - Consultar assento
+
+Utilizar uma função chamada  VerificarAssento().
+ A função deve retornar  "Livre" ou "Ocupado"
+
+4 - Mostrar mapa da sala
+5 - Encerrar
