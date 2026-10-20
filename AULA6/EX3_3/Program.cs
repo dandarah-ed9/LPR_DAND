@@ -32,7 +32,7 @@ namespace  EX3_3
             poder [i] = Console.ReadLine()!;
             
             Console.WriteLine($"digite a  pontuacao do superheroi : {i+1}");               
-            pontuacao [i] = int.Parse( Console.ReadLine()!);
+            o
         }
     }
     void sel_equipe()
