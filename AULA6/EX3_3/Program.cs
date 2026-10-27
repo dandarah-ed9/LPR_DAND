@@ -17,43 +17,89 @@ namespace  EX3_3
 {
     class Program
     {
+        int quantidade =5;
         string [] superherois = new string[5]; 
         string [] poder = new string [5];
         int []  pontuacao = new int [5];
-        bool [] selecionado  = new bool [5];
+        string [] selecionado  = new string [3];
 
     void superHerois()
     {
-        for(int i = 0; i<5; i++)
+            Console.WriteLine($"digite a  quantidade de superherois que deseja cadastrar : ");  
+            while (true)
+                {
+                    if(int.TryParse(Console.ReadLine(), out  quantidade)) break;
+                    Console.WriteLine("Inválido");
+                    Console.Write(": ");
+                }
+        
+        for(int i = 0; i<quantidade; i++)
         {
+            string nome ;
+
             Console.WriteLine($"digite o nome do superheroi : {i+1}");
-            superherois [i] = Console.ReadLine()!;
-            
+            while (true)
+                {
+                    nome = Console.ReadLine()!;
+                    if( string.IsNullOrEmpty(nome))
+                    {
+                        Console.WriteLine("Inválido");
+                        Console.Write(": ");
+                    }
+                    else
+                    { 
+                        break;
+                    }
+                }
+            superherois [i] = nome;
+            string poder2;
             Console.WriteLine($"digite o poder do superheroi : {i+1}");
-            poder [i] = Console.ReadLine()!;
-            
-            Console.WriteLine($"digite a  pontuacao do superheroi : {i+1}");               
+            while (true)
+                {
+                    poder2 = Console.ReadLine()!;
+                    if(string.IsNullOrEmpty (poder2))
+                    {
+                        Console.WriteLine("Inválido");
+                        Console.Write(": ");
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            poder [i] = poder2;
+            //alunos[0] = "Ana"
+             int pontos ;
+            Console.WriteLine($"digite a  pontuacao do superheroi : {i+1}");  
+            while (true)
+                {
+                    if(int.TryParse(Console.ReadLine(), out  pontos)) break;
+                    Console.WriteLine("Inválido");
+                    Console.Write(": ");
+                }   
+                pontuacao [i] = pontos;          
         }
     }
     void sel_equipe()
     {
-        for(int i = 0 ; i<5; i++)
+        for(int i = 0 ; i<quantidade; i++)
         {
            Console.WriteLine($"superherois: {superherois [i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
         }
         for(int i =0; i<3; i++)
         {
-           int selecionar = 3;
+           string selecionar = "";
 
            Console.WriteLine($"Selecione no maximo 3 herois :  "); 
-            selecionar = Console.ReadLine ();     
+            selecionar = Console.ReadLine()!.ToString();  
+            selecionado[i] = selecionar;   
         }
     }
     void pont_total()
     {
         int total = 0;
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < quantidade; i++)
         {
           total += pontuacao[i];
         }
@@ -63,11 +109,14 @@ namespace  EX3_3
     {
         Console.WriteLine("\n--- Equipe Selecionada ---");
 
-        for (int i = 0; i < 5; i++)
+        for (int i = 0; i < 3; i++)
         {
-            if (selecionado[i] == true)
+            for (int i2 = 0; i2 < quantidade; i2++)
             {
-                Console.WriteLine($"Nome: {superherois[i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
+                if (selecionado[i] == superherois[i2])
+                {
+                    Console.WriteLine($"Nome: {superherois[i]} | Poder: {poder[i]} | Pontuacao: {pontuacao[i]}");
+                }
             }
         }
     }
@@ -102,6 +151,9 @@ namespace  EX3_3
 
               case 4:
               exib_equipe();
+              break;
+
+              case 0:
               break;
 
               default:
