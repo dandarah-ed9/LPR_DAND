@@ -9,6 +9,7 @@
 //COM Requisitos Adicionais:
 
 using System;
+using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 
@@ -45,7 +46,7 @@ namespace  EX3_3
            int selecionar = 3;
 
            Console.WriteLine($"Selecione no maximo 3 herois :  "); 
-           selecionar = int.Parse(Console.ReadLine()!);
+            selecionar = Console.ReadLine ();     
         }
     }
     void pont_total()
