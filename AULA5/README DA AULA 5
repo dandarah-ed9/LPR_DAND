@@ -1,4 +1,4 @@
-**EXERCÍCIO 1 C# **
+**EXERCÍCIO 1 C++ **
 ```
 WHILE: Construa um algoritmo que calcule a 
 média aritmética de um conjunto de números 
@@ -20,7 +20,7 @@ ENTRADA                              -     SAÍDA
 ```
 ```
 
-**EXERCÍCIO 2**
+**EXERCÍCIO 2 C# **
 ```
 DO WHILE: Construa um algoritmo de adivinhação 
 de números. Com as linhas abaixo, o algoritmo 
@@ -43,7 +43,7 @@ usadas para descobrir o número.
 
 ```
 
-**EXERCÍCIO 3**
+**EXERCÍCIO 3 C++ **
 ```
 FOR: Elabore um algoritmo que calcule a 
 soma de todos os números ímpares 
@@ -58,7 +58,7 @@ ENTRADA         -     SAÍDA
 ```
 
 
-**EXERCÍCIO 4**
+**EXERCÍCIO 4 C# **
 
 ```
 ESCOLHA A MELHOR ESTRUTURA DE 
@@ -77,7 +77,7 @@ ENTRADA         -     SAÍDA
 ```
 ```
 
-**EXERCÍCIO 5**
+**EXERCÍCIO 5 C# **
 ```
 ESCOLHA A MELHOR ESTRUTURA DE 
 REPETIÇÃO: Crie um programa que simula 
