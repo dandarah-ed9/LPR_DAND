@@ -1,6 +1,6 @@
 README 6
 
-**EXERCÍCIO 1  C++**
+**EXERCÍCIO 1  C++ **
 
 Construa uma função em C++ que retorne 
 o reverso de um número inteiro.
@@ -9,7 +9,7 @@ o reverso de um número inteiro.
 ENTRADA         -     SAÍDA
 1234                 - 4321
 
-**EXERCÍCIO 2  C++**
+**EXERCÍCIO 2  C++ **
 ```
 Construa um algoritmo em C++ que agrupe 
 em funções os exercícios 1, 3 e 4 da tarefa 
