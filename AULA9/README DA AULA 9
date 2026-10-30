@@ -1,10 +1,8 @@
 **README 9**
-```
 
 
-**EXERCÍCIO 1**
+* EXERCÍCIO 1 *
 
-```
 Crie um programa que permita
 ao usuário cadastrar notas de alunos em
 uma lista. O programa deve:
@@ -16,12 +14,9 @@ uma lista. O programa deve:
 ○ A menor nota;
 ○ A média das notas.
 
-```
-```
 
-**EXERCÍCIO 2**
+* EXERCÍCIO 2 *
 
-```
 Construa uma lista de X nomes
 aleatórios
 A saída deve ser mostrada em uma ou mais
@@ -50,14 +45,11 @@ Exemplo de entrada e saída:
 |laura		|                                                     |
 |lucas		|                                                     |
 |ari 		|                                                     |
-|Paulo		|                                                     |                                                                                                                                              
+| Paulo		|                                                      |                                                                                                                                              
 --------------------------------------------
 
-```
-```
 
-**EXERCÍCIO 3**
-```
+* EXERCÍCIO 3 *
 
 Construa uma lista de 100
 números aleatórios
@@ -69,11 +61,8 @@ novamente.
 Por fim imprima quais números se repetem,
 se existe algum número repetido.
 
-```
-```
 
-**EXERCÍCIO 4**
-```
+* EXERCÍCIO 4 *
 
 Crie uma struct chamada Piloto contendo:
 Nome, Equipe, Pontuação
@@ -94,12 +83,10 @@ pontuação.
 ● Determinar qual equipe possui a maior soma de
 pontos.
 
-```
 
-```
 
-**EXERCÍCIO 5**
-```
+* EXERCÍCIO 5 *
+
 Crie um programa que utilize
 um dicionário para armazenar jogos e seus
 respectivos gêneros.
@@ -110,12 +97,10 @@ seu gênero.
 Caso o jogo não esteja cadastrado, exiba
 uma mensagem informando isso.
 
-```
-```
 
-**EXERCÍCIO 6**
-```
- Construa um dicionário de X pares
+* EXERCÍCIO 6 *
+
+Construa um dicionário de X pares
 chave-valor onde as chaves são nomes de
 pessoas e os valores são suas respectivas
 idades.
@@ -127,11 +112,8 @@ Remova todas as pessoas com idade igual a um
 valor Y (fornecido pelo usuário) e imprima o
 dicionário atualizado.
 
-```
-```
 
-**EXERCÍCIO 7**
-```
+* EXERCÍCIO 7 *
 
 Construa um dicionário de x pares
 chave-valor onde as chaves são nomes de
@@ -145,11 +127,10 @@ Remova todas as cidades com população igual
 a um valor Y (fornecido pelo usuário) e imprima
 o dicionário atualizado.
 
-```
-```
 
-**EXERCÍCIO 8**
-```
+
+* EXERCÍCIO 8 *
+
 Crie uma struct chamada Livro
 contendo:
 
