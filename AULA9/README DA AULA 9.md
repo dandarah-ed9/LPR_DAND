@@ -40,24 +40,16 @@ nas linhas seguintes. Você deve seguir a
 ordem de digitação.
 
 Exemplo de entrada e saída:
---------------------------------------------
-|ENTRADA |	SAÍDA                                      |
-|-------------------------------------------|
-|12		|   jo, ana, mara, maria, sergio, Joaquim  |
-|sergio	|  eva, laura, carlos                              |
-|ana		|  ari, lucas	                                      |
-|maria	|  Paulo                                             |
-|carlos	|                                                     |
-|eva		|						      |
-|Joaquim	|                                                     |
-|jo		|                                                     |
-|mara		|                                                     |
-|laura		|                                                     |
-|lucas		|                                                     |
-|ari 		|                                                     |
-|Paulo		|                                                     |                                                                                                                                              
---------------------------------------------
-
+<table>
+  <tr>
+    <th>Entrada</th>
+    <th>Saída</th>
+  </tr>
+  <tr> <td>12<br>sergio<br>ana<br>maria<br> carlos <br>eva<br>joaquim<br>jo<br>mara<br>laura<br>lucas<br>ari<br>paulo </td> <td>jo, ana, mara, maria, sergio, joaquim<br>
+eva, laura, carlos<br>
+ari, lucas<br>
+paulo</td> </tr>
+</table>
 ```
 ```
 
