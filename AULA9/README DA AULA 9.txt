@@ -1,0 +1,188 @@
+README DA AULA 9
+
+
+```
+**README 9**
+```
+
+
+**EXERCÍCIO 1**
+
+```
+
+Crie um programa que permita
+ao usuário cadastrar notas de alunos em
+uma lista. O programa deve:
+● Solicitar ao usuário 5 notas.
+● Armazenar as notas em uma lista.
+● Exibir:
+○ Todas as notas cadastradas;
+○ A maior nota;
+○ A menor nota;
+○ A média das notas.
+
+```
+```
+
+**EXERCÍCIO 2**
+
+```
+Construa uma lista de X nomes
+aleatórios
+A saída deve ser mostrada em uma ou mais
+linhas. Cada linha tem uma lista de nomes
+ordenados por tamanho, começando com
+o menor. Em cada linha, só pode ser
+mostrado um nome de determinado
+tamanho, e os demais nomes com o
+mesmo tamanho devem ser apresentados
+nas linhas seguintes. Você deve seguir a
+ordem de digitação.
+
+Exemplo de entrada e saída:
+--------------------------------------------
+|ENTRADA |	SAÍDA                                      |
+|-------------------------------------------|
+|12		|   jo, ana, mara, maria, sergio, Joaquim  |
+|sergio	|  eva, laura, carlos                              |
+|ana		|  ari, lucas	                                      |
+|maria	|  Paulo                                             |
+|carlos	|                                                     |
+|eva		|						      |
+|Joaquim	|                                                     |
+|jo		|                                                     |
+|mara		|                                                     |
+|laura		|                                                     |
+|lucas		|                                                     |
+|ari 		|                                                     |
+|Paulo		|                                                     |                                                                                                                                              
+--------------------------------------------
+
+```
+```
+
+**EXERCÍCIO 3**
+```
+
+Construa uma lista de 100
+números aleatórios
+Crie um algoritmo que coloque-os em
+ordem crescente e imprima-os
+A partir dessa lista ordenada, remova todos
+os números pares e imprima a lista
+novamente.
+Por fim imprima quais números se repetem,
+se existe algum número repetido.
+
+```
+```
+
+**EXERCÍCIO 4**
+```
+
+Crie uma struct chamada Piloto contendo:
+Nome, Equipe, Pontuação
+O programa deverá utilizar uma lista para armazenar os
+competidores.
+Implemente as seguintes funções:
+● CadastrarPiloto()
+● ExibirRanking()
+● CalcularPontuacaoMedia()
+● ExibirMelhorEquipe()
+
+O programa deve:
+● Cadastrar 10 pilotos.
+● Exibir um ranking em ordem decrescente de
+pontuação.
+● Calcular a média de pontos do campeonato.
+● Exibir quantos pilotos ficaram acima da média.
+● Determinar qual equipe possui a maior soma de
+pontos.
+
+```
+
+```
+
+**EXERCÍCIO 5**
+```
+Crie um programa que utilize
+um dicionário para armazenar jogos e seus
+respectivos gêneros.
+Cadastre pelo menos 5 jogos informados
+pelo usuário.
+Depois, solicite o nome de um jogo e exiba
+seu gênero.
+Caso o jogo não esteja cadastrado, exiba
+uma mensagem informando isso.
+
+```
+```
+
+**EXERCÍCIO 6**
+```
+ Construa um dicionário de X pares
+chave-valor onde as chaves são nomes de
+pessoas e os valores são suas respectivas
+idades.
+Encontre e imprima todos os nomes de pessoas
+com idade acima da média.
+Encontre e imprima o nome da pessoa mais
+velha e o nome da pessoa mais nova.
+Remova todas as pessoas com idade igual a um
+valor Y (fornecido pelo usuário) e imprima o
+dicionário atualizado.
+
+```
+```
+
+**EXERCÍCIO 7**
+```
+
+Construa um dicionário de x pares
+chave-valor onde as chaves são nomes de
+cidades e os valores são suas respectivas
+populações.
+Encontre e imprima todas as cidades com
+população acima da média.
+Encontre e imprima o nome da cidade mais
+populosa e o nome da cidade menos populosa.
+Remova todas as cidades com população igual
+a um valor Y (fornecido pelo usuário) e imprima
+o dicionário atualizado.
+
+```
+```
+
+**EXERCÍCIO 8**
+```
+Crie uma struct chamada Livro
+contendo:
+
+● Título
+● Autor
+● Ano de publicação
+● Quantidade disponível
+Utilize um dicionário onde Chave: Código
+do livro, Valor: Struct Livro
+Implemente as funções:
+
+1. CadastrarLivro()
+2. BuscarLivro()
+3. EmprestarLivro()
+4. ExibirRelatorio()
+
+O programa deverá:
+● Cadastrar 10 livros.
+● Permitir buscar um livro pelo código.
+● Realizar empréstimos reduzindo a
+quantidade disponível.
+● Impedir empréstimos quando não
+houver exemplares.
+● Exibir um relatório contendo:
+○ Total de livros cadastrados;
+○ Livro mais antigo;
+○ Livro com maior quantidade
+disponível.
+● Exibir quantos livros existem por autor.
+
+```
